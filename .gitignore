@@ -137,3 +137,10 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# idea
+**/.idea/
+**/__pycache__/
+**/.vscode/
+*.http
+backend/projects

@@ -1,0 +1,25 @@
+{
+  "name": "My Project",
+  "description": "A Test Project",
+  "version": "0.0.1",
+  "namespace": "myproject",
+  "type": "数据包",
+  "icon": "",
+  "structure": {
+    "data": {
+      "type": "folder",
+      "alias": "",
+      "children": {
+        "tags": {
+          "type": "folder",
+          "alias": "标签",
+          "children": {}
+        }
+      }
+    },
+    "config.json": {
+      "type": "file",
+      "alias": ""
+    }
+  }
+}

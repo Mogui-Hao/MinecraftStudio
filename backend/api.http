@@ -1,0 +1,23 @@
+@port=5142
+
+#GET http://localhost:{{port}}/api/v1/version/list
+
+#GET http://localhost:5142/api/v1/project/My Project/data
+
+###
+POST http://localhost:{{port}}//api/v1/project
+Content-Type: application/json
+
+{
+  "name": "My Project",
+  "description": "A Test Project",
+  "version": "1.21",
+  "namespace": "myproject",
+  "type": "数据包",
+  "icon": ""
+}
+
+###
+GET http://localhost:{{port}}/api/v1/project/My Project/
+###
+GET http://localhost:{{port}}/api/v1/project/My Project/data/myproject

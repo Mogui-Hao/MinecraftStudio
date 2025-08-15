@@ -1,0 +1,25 @@
+/* 过渡动画 */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+/* 粒子效果基础样式 */
+.particle-effect {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+  z-index: 9999;
+  transition: all 0.5s ease-out;
+  opacity: 1;
+}

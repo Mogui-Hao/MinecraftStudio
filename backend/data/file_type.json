@@ -1,0 +1,36 @@
+{
+  "mcmeta": "元数据",
+  "mcfunction": "函数",
+  "advancements": "进度",
+  "loot_tables": "战利品表",
+  "predicates": "条件判断",
+  "recipe": "配方表",
+  "structures": "结构模板",
+  "tags": {
+    "blocks": "方块标签",
+    "entity_types": "实体标签",
+    "fluids": "液体标签",
+    "functions": "函数标签",
+    "items": "物品标签"
+  },
+  "dimension": "维度配置",
+  "dimension_type": "维度类型",
+  "worldgen": {
+    "biome": "生物群系",
+    "configured_carver": "地形雕刻器",
+    "configured_feature": "地物生成",
+    "configured_surface_builder": "地表生成器",
+    "noise_settings": "噪声生成器",
+    "processor_list": "结构处理器",
+    "template_pool": "结构模板池"
+  },
+  "chat_type": "聊天类型",
+  "damage_type": "伤害类型",
+  "enchantment": "附魔类型",
+  "instrument": "山羊角乐器",
+  "jukebox_song": "唱片机曲目",
+  "painting_variant": "画变种",
+  "trim_material": "盔甲纹饰",
+  "wolf_sound_variant": "狼音效变种",
+  "test_environment": "测试环境"
+}
